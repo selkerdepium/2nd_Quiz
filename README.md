@@ -45,7 +45,7 @@ Simple Quiz App in Flutter Material
 
 Contributions are always welcome!
 
-Fork This Project for colaborations.
+Fork This Project for collaborations.
 
 Please adhere to this project's `code of conduct`.
 
