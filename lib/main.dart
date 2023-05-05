@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import './quiz.dart';
 import './result.dart';
+import 'splashscreen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(home: SplashScreen()));
 }
 
 class MyApp extends StatefulWidget {
