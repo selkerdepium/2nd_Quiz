@@ -32,7 +32,7 @@ class Result extends StatelessWidget {
             Text(
               resultPhrase,
               style: TextStyle(
-                fontSize: 36,
+                fontSize: 18,
                 fontWeight: FontWeight.bold,
                 color: resultColor,
               ),
