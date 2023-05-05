@@ -62,10 +62,12 @@ class _MyAppState extends State<MyApp> {
               appBar: AppBar(
                 title: Text('Quiz App'),
               ),
-              body: Quiz(
-                answerquestion: _answerquestion,
-                questionIndex: _questionIndex,
-                questions: _questions,
+              body: Center(
+                child: Quiz(
+                  answerquestion: _answerquestion,
+                  questionIndex: _questionIndex,
+                  questions: _questions,
+                ),
               ),
             )
           : Scaffold(
