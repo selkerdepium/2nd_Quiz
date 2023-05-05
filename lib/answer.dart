@@ -5,19 +5,20 @@ class Answer extends StatelessWidget {
   final String answerText;
 
   Answer(this.selectHandler, this.answerText);
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
+      width: 150,
+      margin: EdgeInsets.all(10),
       child: ElevatedButton(
-          style: ElevatedButton.styleFrom(
-            foregroundColor: Color.fromARGB(
-                255, 255, 255, 255), // change background color of button
-            backgroundColor:
-                Color.fromARGB(255, 0, 0, 0), // change text color of button
-          ),
-          onPressed: selectHandler,
-          child: Text(answerText)),
+        style: ElevatedButton.styleFrom(
+          foregroundColor: Color.fromARGB(255, 255, 255, 255),
+          backgroundColor: Color.fromARGB(255, 0, 0, 0),
+        ),
+        onPressed: selectHandler,
+        child: Text(answerText),
+      ),
     );
   }
 }
